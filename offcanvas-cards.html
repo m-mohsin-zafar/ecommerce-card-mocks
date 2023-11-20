@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./offcanvas-card-styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+
+  <body class="h-100">
+    <div class="container-fluid p-2">
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+      >
+        Toggle right offcanvas
+      </button>
+
+      <div
+        class="offcanvas offcanvas-end show"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">
+            Offcanvas right
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row p-1">
+                <div class="col-12 my-1">
+                    <!-- A custom card -->
+                    <div class="row custom-card p-1">
+                        <div class="col-4 img-container border rounded rounded-1 d-flex justify-content-center p-0">
+                            <img src="./assets/images/Stock.webp" alt="" class="">
+                        </div>
+                        <div class="col-8 custom-card-body">
+                            <div class="row custom-card-title">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, autem.
+                                </p>
+                            </div>
+                            <div class="col-12">
+                                <span class="badge text-dark bg-lavender">New!</span>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-6 text-decoration-line-through text-muted">
+                                    <p class="m-0">Rs. 10,0000</p>
+                                </div>
+                                <div class="col-6 fw-bold text-end">
+                                    <p class="m-0">Rs. 8,0000</p>
+                                </div>
+                            </div>
+                            <div class="row mb-0 pb-0 d-flex">
+                                <div class="col-6">
+                                    <a href="#" class="text-decoration-none">Visit Store</a>
+                                </div>
+                                <div class="col-6 text-end align-middle">
+                                    <i class='bx bx-map-pin align-middle me-1' ></i><span>Lahore</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 my-2">
+                    <!-- A custom card -->
+                    <div class="row custom-card p-1">
+                        <div class="col-4 img-container border rounded rounded-1 d-flex justify-content-center p-0">
+                            <img src="./assets/images/Stock.webp" alt="" class="">
+                        </div>
+                        <div class="col-8 custom-card-body">
+                            <div class="row custom-card-title">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, autem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
